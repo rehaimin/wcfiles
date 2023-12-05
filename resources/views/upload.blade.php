@@ -21,6 +21,7 @@
     <input type="text" name="name" id="name">
   </div>
   <button type="submit" class="btn">Téléverser</button>
+  <div id="timer"></div>
 </form>
 @if ($errors->any())
   <div class="alert alert-danger">
